@@ -32,6 +32,7 @@ header{
 }
 .profile-info p{
     font-size: 16px;
+    color: #555;
 }
 .main-menu ul{
     list-style: none;
@@ -71,7 +72,7 @@ h2{
 }
 p{
     font-size: 18px;
-    color: #555;
+   
 }
 /*Footerstyles*/
 footer{
@@ -93,15 +94,20 @@ header h2{
 .ti-mobile,.ti-facebook,.ti-location-pin,.ti-email{
     padding: 8px;
 }
-#about ul{
-    margin-left: 32px;
+#about li, .work > p, .projects li, .projects p{
+    margin-left: 64px;
     list-style-type: none;
 }
 h3{
     font-size: 24px;
+    margin-left: 32px;
 }
 .appearance,.favorite{
-    margin-left: 32px;
+    
+}
+.projects a{
+    text-decoration: none;
+    color: rgb(37, 104, 101);
 }
 
 
