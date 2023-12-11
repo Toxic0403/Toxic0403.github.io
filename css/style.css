@@ -88,9 +88,20 @@ header h2{
 }
 .ulcontact{
     list-style-type: none;
+    margin-left: 32px;
 }
 .ti-mobile,.ti-facebook,.ti-location-pin,.ti-email{
     padding: 8px;
+}
+#about ul{
+    margin-left: 32px;
+    list-style-type: none;
+}
+h3{
+    font-size: 24px;
+}
+.appearance,.favorite{
+    margin-left: 32px;
 }
 
 
@@ -118,6 +129,9 @@ header h2{
 @media only screen and (max-width: 600px) {
     h2{
         font-size: 28px;
+    }
+    h3{
+        font-size: 20px;
     }
     p{
         font-size: 16px;
